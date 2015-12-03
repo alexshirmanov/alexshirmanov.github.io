@@ -38,7 +38,11 @@ a span {
   width: 25px;
 }
 
-a span:hover {
+a:hover span {
   color: #F7F18C;
   border-color: #F7F18C;
+}
+
+a:hover .icon {
+  background-color: #F7F18C;
 }
