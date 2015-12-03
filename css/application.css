@@ -1,3 +1,44 @@
 body {
-  background-color: red;
+  background-color: #D0E7E8;
+  color: #141515;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.background {
+  width: 300px;
+  margin: 35px auto 10px;
+  display: block
+}
+
+h1 {
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+a {
+  color: #141515;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+a span {
+  border-bottom: 1px solid #141515;
+  vertical-align: 6px;
+}
+
+.icon {
+  width: 25px;
+}
+
+a span:hover {
+  color: #F7F18C;
+  border-color: #F7F18C;
 }
